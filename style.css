@@ -258,15 +258,6 @@ section { padding: 100px 8%; }
   position: relative; z-index: 1;
 }
 
-.skill-bar-wrap { margin-top: 1.2rem; position: relative; z-index: 1; }
-.skill-bar-label { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); margin-bottom: 0.4rem; }
-.skill-bar-track { height: 5px; background: var(--border); border-radius: 10px; overflow: hidden; }
-.skill-bar-fill {
-  height: 100%; border-radius: 10px;
-  background: linear-gradient(90deg, var(--accent), var(--accent2));
-  width: 0; transition: width 1.2s ease;
-}
-
 /* ── CONTACT ── */
 #contact { background: var(--surface); }
 
